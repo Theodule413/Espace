@@ -1,0 +1,73 @@
+.baniere_bottom{
+	display: flex;
+	background-color: #282828;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+h3{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0.75rem;
+}
+
+.baniere_bottom a{
+	color: white;
+}
+
+.baniere_bottom_home a{
+	color: white;
+}
+
+.contact img{
+	max-width: 30px;
+	margin-right: 0.25rem;
+}
+
+.contact{
+	margin-left: 2rem;
+}
+
+.logo_bottom{
+	width: 190px;
+    height: 40px;
+    margin-top: auto;  
+    margin-bottom: auto; 	
+}
+
+ul{
+	margin-top: 0.75rem;  
+    margin-bottom: 0.75rem; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+li.li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.25rem;
+}
+
+.baniere_bottom p{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+
+@media screen and (max-width:  600px){
+	.baniere_bottom_home{
+		position: initial;
+	}
+
+	.baniere_bottom{
+		font-size: 70%;
+	}
+
+	.baniere_bottom p{
+		visibility: hidden;
+	}
+
+}

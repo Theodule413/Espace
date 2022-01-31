@@ -1,0 +1,55 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url(card.css);
+@import url(navbar.css);
+@import url(missionsspatiales.css);
+@import url(objetsastronomiques.css);
+@import url(baniere_bottom.css);
+
+
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 350%;
+	font-weight: 500;
+	font-family: Copperplate Gothic;
+}
+
+body {
+color:black;
+background-color:white;
+background-image:url(images/fond.jpg);
+background-attachment:fixed;
+min-width: 100%;
+min-height: 100%;
+position: absolute;
+}
+
+h2{
+	color: white;
+	font-family: Copperplate Gothic;
+	font-size: 150%;
+}
+
+p{
+	color: white;
+}
+
+.titre{
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+}
+
+
+
+
+@media screen and (max-width:  600px){
+	.titre{
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+}
+
+.main{
+	margin-top: 56px;
+}
